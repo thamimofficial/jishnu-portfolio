@@ -2,12 +2,16 @@ import { useEffect, useRef, useState } from "react";
 
 // Drop your own files in /public/assets/videos and /public/assets/posters, then edit this list.
 const PROJECTS = [
-  { title: "Midnight Drive", category: "Car Videos",vertical: true, video: "/assets/videos/project-1.mp4", poster: "/assets/posters/project-1.jpg" },
-  { title: "Desert Run", category: "Car Videos",vertical: true, video: "/assets/videos/project-2.mp4", poster: "/assets/posters/project-2.jpg" },
-  { title: "Street Reel", category: "Reels", vertical: true, video: "/assets/videos/project-3.mp4", poster: "/assets/posters/project-3.jpg" },
-  { title: "Launch Spot", category: "Ad Creatives", vertical: true,video: "/assets/videos/project-4.mp4", poster: "/assets/posters/project-4.jpg" },
-  { title: "Skyline Campaign", category: "Brand Campaigns", vertical: true, video: "/assets/videos/project-5.mp4", poster: "/assets/posters/project-5.jpg" },
-  { title: "Chrome Edition", category: "Reels", vertical: true, video: "/assets/videos/project-6.mp4", poster: "/assets/posters/project-6.jpg" },
+  { title: "Midnight Drive", category: "Car Videos",vertical: true, video: "https://res.cloudinary.com/t1azixge/video/upload/v1792760935/PAGANI_1.mp4", poster: "/assets/posters/project-1.jpg" },
+  { title: "Desert Run", category: "Car Videos",vertical: true, video: "https://res.cloudinary.com/t1azixge/video/upload/v1792761118/Porsche_grey_js.mp4", poster: "/assets/posters/project-2.jpg" },
+  { title: "Street Reel", category: "Reels", vertical: true, video: "https://res.cloudinary.com/t1azixge/video/upload/v1792760448/Project3.mp4", poster: "/assets/posters/project-3.jpg" },
+  { title: "Launch Spot", category: "Ad Creatives", vertical: true,video: "https://res.cloudinary.com/t1azixge/video/upload/v1792760452/Project4.mp4", poster: "/assets/posters/project-4.jpg" },
+  { title: "Skyline Campaign", category: "Brand Campaigns", vertical: true, video: "https://res.cloudinary.com/t1azixge/video/upload/v1792760467/Project6.mp4", poster: "/assets/posters/project-5.jpg" },
+  { title: "Chrome Edition", category: "Reels", vertical: true, video: "https://res.cloudinary.com/t1azixge/video/upload/v1792760454/Project7.mp4", poster: "/assets/posters/project-6.jpg" },
+    { title: "Chrome Edition", category: "Reels", vertical: true, video: "https://res.cloudinary.com/t1azixge/video/upload/v1792760448/Project8.mp4", poster: "/assets/posters/project-6.jpg" },
+      { title: "Chrome Edition", category: "Reels", vertical: true, video: "https://res.cloudinary.com/t1azixge/video/upload/v1792760440/Project9.mp4", poster: "/assets/posters/project-6.jpg" },
+
+
 ];
 const CATS = ["All", "Car Videos", "Reels", "Ad Creatives", "Brand Campaigns"];
 
