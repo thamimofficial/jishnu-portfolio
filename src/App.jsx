@@ -233,7 +233,7 @@ function Work() {
       key={p.title}
       className={"pcard" + (p.vertical ? " v" : "")}
       aria-label={`Play ${p.title}`}
-      onClick={() => setOpen(p)}
+     onClick={() => window.open('https://www.instagram.com/jishnu_visuals/', '_blank', 'noopener,noreferrer')} 
     >
       <LoopVideo src={p.video} poster={p.poster} />
       <span className="cap"><b>{p.title}</b><span>{p.category}</span></span>
