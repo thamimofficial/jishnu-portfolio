@@ -373,7 +373,7 @@ const submit = (e) => {
         <section id="about" className="block about">
   <div className="wrap aboutgrid">
     <div className="photo">
-      <img src="/assets/profile.jpg" alt="JISHNU VISUALS" loading="lazy" />
+      <img src="/assets/profile.png" alt="JISHNU VISUALS" loading="lazy" />
     </div>
     <div>
       <div className="tag">About</div>
